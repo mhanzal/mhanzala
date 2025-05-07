@@ -1,0 +1,197 @@
+.logo {
+    animation: myAn 2s ease 0s 1 normal forwards;
+    -webkit-animation: myAn 2s ease 0s 1 normal forwards;
+}
+@keyframes myAn {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0) rotate(0deg);
+		-webkit-transform: translateX(0) rotate(0deg);
+		-moz-transform: translateX(0) rotate(0deg);
+		-ms-transform: translateX(0) rotate(0deg);
+		-o-transform: translateX(0) rotate(0deg);
+}
+}
+
+
+
+.collapse ul {
+    animation: myAni 2s ease 0s 1 normal forwards;
+    -webkit-animation: myAni 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAni {
+	0% {
+		transform: scaleY(0);
+		transform-origin: 0% 100%;
+	}
+
+	100% {
+		transform: scaleY(1);
+		transform-origin: 0% 100%;
+	}
+}
+
+
+nav form button {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(250px) rotate(200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0) rotate(0deg);
+	}
+}
+
+
+
+
+
+main h1{
+    animation: myAnima 2s ease 0s 1 normal forwards;
+    -webkit-animation: myAnima 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnima {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+main h5, h3, h4 {
+    animation: myAnimat 2s ease 0s 1 normal forwards;
+    -webkit-animation: myAnimat 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnimat {
+	0% {
+		transform: scaleX(0);
+		transform-origin: 0% 0%;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: 0% 0%;
+	}
+}
+
+main img {
+    animation: myAnimati 2s ease 0s 1 normal forwards;
+    -webkit-animation: myAnimati 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnimati {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
+
+main .boxex {
+    animation: myAnimatio 2s ease 0s 1 normal forwards;
+    -webkit-animation: myAnimatio 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnimatio {
+	0% {
+		opacity: 0;
+		transform: rotateX(-100deg);
+		transform-origin: top;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0deg);
+		transform-origin: top;
+	}
+}
+
+
+main #main-btn {
+    animation: myAnimation 2s ease 0s 1 normal forwards;
+    -webkit-animation: myAnimation 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnimation {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+main button {
+    animation: mainbtn 2s ease 0s 1 normal forwards;
+    -webkit-animation: mainbtn 2s ease 0s 1 normal forwards;
+}
+
+@keyframes mainbtn {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

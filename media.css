@@ -1,0 +1,63 @@
+@media (max-width: 1200px) { 
+    .collapse ul {
+        margin-left: 0px;
+    } 
+}
+
+@media (max-width: 467px) {
+    .main-btn {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 375px) {
+    .boxex .box, .box3 {
+        width: 350px;
+        text-align: center;
+    }
+    .boxex .box h6::before {
+        background-color: transparent;
+    }
+
+
+
+    main {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .boxes .box1 {
+        padding-block: 80px;
+    }
+    .boxes p {
+        margin-top: 10px;
+    }
+
+
+
+
+    .contact-input2 button {
+        margin-left: 0;
+        width: 40%;
+    }
+
+
+
+
+    .footer .last-a {
+        gap: 40px;
+    }
+
+    .footer .last-icons {
+        border-bottom: 1px solid rgb(167, 165, 165);
+        padding-bottom: 18px;
+    }
+
+    .footer .last-a {
+    border-bottom: 1px solid rgb(167, 165, 165);
+    padding-bottom: 18px;
+    }
+}
